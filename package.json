@@ -1,0 +1,49 @@
+{
+  "name": "flow-parse",
+  "version": "0.0.0",
+  "description": "Thin wrapper for JSONStream parse.",
+  "author": {
+    "name": "Athan Reines",
+    "email": "athan@nodeprime.com"
+  },
+  "contributors": [
+    {
+      "name": "Athan Reines",
+      "email": "athan@nodeprime.com"
+    }
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kgryte/flow-parse.git"
+  },
+  "keywords": [
+    "stream",
+    "readable",
+    "jsonstream",
+    "json",
+    "parse",
+    "flow",
+    "flow.io"
+  ],
+  "bugs": {
+    "url": "https://github.com/kgryte/flow-parse/issues"
+  },
+  "dependencies": {
+    "JSONStream": "~0.7.3"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x",
+    "stream-spec": "~0.3.5"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ]
+}
