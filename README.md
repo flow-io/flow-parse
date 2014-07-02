@@ -14,17 +14,16 @@ $ npm install flow-parse
 ## Examples
 
 ``` javascript
-// Flow parse generator:
-var pStream = require( 'flow-parse' );
+var eventStream = require( 'event-stream' ),
+	pStream = require( 'flow-parse' );
 
 // Create a new stream, passing along an optional error handler:
 var stream = pStream()
 	.stream( onError );
 
-// Add a listener:
-stream.on( 'data', function( data ) {
-	console.log( data );
-});
+// Create the pipeline:
+stream.pipe( eventStream.stringify() )
+	.pipe( process.stdout );
 
 // Write data to the stream:
 stream.write( "{ \"x\": 0, \"y\": 0 }" );
