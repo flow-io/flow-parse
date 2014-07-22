@@ -18,7 +18,7 @@
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": "git://github.com/kgryte/flow-parse.git"
+    "url": "git://github.com/flow-io/flow-parse.git"
   },
   "keywords": [
     "stream",
@@ -30,7 +30,7 @@
     "flow.io"
   ],
   "bugs": {
-    "url": "https://github.com/kgryte/flow-parse/issues"
+    "url": "https://github.com/flow-io/flow-parse/issues"
   },
   "dependencies": {
     "JSONStream": "~0.7.3"
