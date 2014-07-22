@@ -1,6 +1,6 @@
 {
   "name": "flow-parse",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Thin wrapper for JSONStream parse.",
   "author": {
     "name": "Athan Reines",
